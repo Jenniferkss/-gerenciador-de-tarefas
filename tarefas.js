@@ -55,3 +55,8 @@ console.table(`Clonagem com map: ${clone}`);
 //Filtra tarefas
 let tarefasFiltradas = tarefas.filter( tarefas => tarefas.length > 15 );
 console.log(`Lista de tarefas filtradas:${tarefasFiltradas}`);
+
+
+//Ordena tarefas
+let listaOrdenada = tarefas.sort();
+console.log(`Lista em ordem alfabética: ${listaOrdenada}`);
