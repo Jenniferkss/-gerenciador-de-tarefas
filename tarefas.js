@@ -60,3 +60,7 @@ console.log(`Lista de tarefas filtradas:${tarefasFiltradas}`);
 //Ordena tarefas
 let listaOrdenada = tarefas.sort();
 console.log(`Lista em ordem alfabética: ${listaOrdenada}`);
+
+//Inverte ordem das tarefas 
+let listaInvertida = tarefas.reverse();
+console.log(`Lista invertida: ${listaInvertida}`);
