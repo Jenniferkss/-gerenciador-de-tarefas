@@ -38,3 +38,8 @@ console.log(`Lista como string: ${tarefas.join(`,`)}`);
 //Extrai parte da lista
 console.log(`Parte da lista (indices 2 a 4): ${tarefas.slice(2,5)}`);
 
+// Altera lista
+let tarefasRemovidas = tarefas.splice(3,1);
+console.log(`Tarefas removidas:${tarefasRemovidas}`);
+tarefas[3] = "Passear com o cachorro"
+console.log(`Lista após a substituiçaõ: ${tarefas}`);
