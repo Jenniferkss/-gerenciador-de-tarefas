@@ -10,7 +10,12 @@ let tarefas = [
   "Estudar para concurso",
   "Organizar o computador",
 ];
-tarefas.push(`Estudar para provas`,`Preparar lancheira`)
+//Adiciona novas tarefas
+tarefas.push(`Estudar para provas`,`Preparar lancheira`);
 console.table(`Lista de tarefas${tarefas}`);
+// Remove última tarefa
 let tarefaRemovida = tarefas.pop();
 console.log(`Tarefa removida: ${tarefaRemovida}`);
+//Adiciona tarefa no início
+tarefas.unshift(`Regar a planta`);
+console.log(`Nova tarefa no inicio: ${tarefas}`);
