@@ -51,3 +51,7 @@ console.log(`Listas combinasdas: ${tarefas.concat(tarefas2)}`);
 // Transforma tarefas
 let clone = tarefas.map(tarefas => "Fazer:" + tarefas)
 console.table(`Clonagem com map: ${clone}`);
+
+//Filtra tarefas
+let tarefasFiltradas = tarefas.filter( tarefas => tarefas.length > 15 );
+console.log(`Lista de tarefas filtradas:${tarefasFiltradas}`);
