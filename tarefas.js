@@ -13,9 +13,20 @@ let tarefas = [
 //Adiciona novas tarefas
 tarefas.push(`Estudar para provas`,`Preparar lancheira`);
 console.table(`Lista de tarefas${tarefas}`);
+
+
 // Remove última tarefa
 let tarefaRemovida = tarefas.pop();
 console.log(`Tarefa removida: ${tarefaRemovida}`);
+
+
 //Adiciona tarefa no início
 tarefas.unshift(`Regar a planta`);
 console.log(`Nova tarefa no inicio: ${tarefas}`);
+
+
+// Remove primeira tarefa
+tarefas.shift();
+console.log(`Primeira tarefa removida ${tarefas}`);
+
+
