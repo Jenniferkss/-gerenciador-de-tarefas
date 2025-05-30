@@ -12,3 +12,5 @@ let tarefas = [
 ];
 tarefas.push(`Estudar para provas`,`Preparar lancheira`)
 console.table(`Lista de tarefas${tarefas}`);
+let tarefaRemovida = tarefas.pop();
+console.log(`Tarefa removida: ${tarefaRemovida}`);
