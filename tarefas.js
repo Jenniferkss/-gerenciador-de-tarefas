@@ -29,4 +29,7 @@ console.log(`Nova tarefa no inicio: ${tarefas}`);
 tarefas.shift();
 console.log(`Primeira tarefa removida ${tarefas}`);
 
+// Verifica existência de tarefa
+console.log(`A lista possui Ir à academia? ${tarefas.includes("Ir à academia")}`);
+
 
