@@ -43,3 +43,7 @@ let tarefasRemovidas = tarefas.splice(3,1);
 console.log(`Tarefas removidas:${tarefasRemovidas}`);
 tarefas[3] = "Passear com o cachorro"
 console.log(`Lista após a substituiçaõ: ${tarefas}`);
+
+// Concatena listas de tarefas 
+let tarefas2 = [`Arrumar mala`,`Fazer a janta`,`Lavar o carro`]
+console.log(`Listas combinasdas: ${tarefas.concat(tarefas2)}`);
